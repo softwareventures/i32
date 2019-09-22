@@ -59,3 +59,7 @@ export function ineq(a: number, b: number): number {
 export function iband(a: number, b: number): number {
     return a & b;
 }
+
+export function ixor(a: number, b: number): number {
+    return a ^ b;
+}
