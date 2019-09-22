@@ -71,3 +71,7 @@ export function ibor(a: number, b: number): number {
 export function iand(a: number, b: number): number {
     return (((a | 0) && (b | 0)) as any) | 0;
 }
+
+export function ior(a: number, b: number): number {
+    return (((a | 0) || (b | 0)) as any) | 0;
+}
