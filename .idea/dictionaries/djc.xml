@@ -12,6 +12,7 @@
       <w>ineg</w>
       <w>ineq</w>
       <w>inot</w>
+      <w>ipow</w>
       <w>ishl</w>
       <w>ishr</w>
       <w>isub</w>

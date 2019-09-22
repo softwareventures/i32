@@ -10,6 +10,31 @@ export function ineg(value: number): number {
     return (-(value | 0)) | 0;
 }
 
+export function ipow(a: number, b: number): number {
+    // Adapted from https://stackoverflow.com/a/101613/31662
+    let base = a | 0;
+    let exp = b | 0;
+
+    if (exp < 0) {
+        return 0;
+    }
+
+    let result = 1;
+    while (true) {
+        if (exp & 1) {
+            result = imul(result, base);
+        }
+        if (result <= 0) {
+            return 0;
+        }
+        exp = exp >>> 1;
+        if (exp === 0) {
+            return result;
+        }
+        base = imul(base, base);
+    }
+}
+
 export import imul = require("imul");
 
 export function imod(a: number, b: number): number {
