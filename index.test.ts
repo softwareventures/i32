@@ -1,5 +1,5 @@
 import test from "ava";
-import {iadd, icmp, ieq, igt, igte, ilt, ilte, imod, ineg, inot, isub} from "./index";
+import {iadd, icmp, ieq, igt, igte, ilt, ilte, imod, ineg, ineq, inot, isub} from "./index";
 
 test("inot", t => {
     t.is(inot(0), 1);
@@ -155,4 +155,22 @@ test("ieq", t => {
     t.is(ieq(-0x7fffffff, 0x80000001), 1);
     t.is(ieq(0x80000000, -0x80000000), 1);
     t.is(ieq(0x100000000, 0), 1);
+});
+
+test("ineq", t => {
+    t.is(ineq(0, 0), 0);
+    t.is(ineq(1, 0), 1);
+    t.is(ineq(-1, 0), 1);
+    t.is(ineq(6, 8), 1);
+    t.is(ineq(6, 6), 0);
+    t.is(ineq(6, 4), 1);
+    t.is(ineq(6, -2), 1);
+    t.is(ineq(-6, 2), 1);
+    t.is(ineq(-6, -2), 1);
+    t.is(ineq(-6, -6), 0);
+    t.is(ineq(-6, -7), 1);
+    t.is(ineq(-0x7fffffff, 0x80000000), 1);
+    t.is(ineq(-0x7fffffff, 0x80000001), 0);
+    t.is(ineq(0x80000000, -0x80000000), 0);
+    t.is(ineq(0x100000000, 0), 0);
 });
