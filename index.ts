@@ -63,3 +63,7 @@ export function iband(a: number, b: number): number {
 export function ixor(a: number, b: number): number {
     return a ^ b;
 }
+
+export function ibor(a: number, b: number): number {
+    return a | b;
+}
