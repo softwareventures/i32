@@ -2,6 +2,7 @@
   <dictionary name="djc">
     <words>
       <w>iadd</w>
+      <w>ineg</w>
       <w>inot</w>
       <w>isub</w>
     </words>
