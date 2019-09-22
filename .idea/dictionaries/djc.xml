@@ -3,6 +3,7 @@
     <words>
       <w>iadd</w>
       <w>icmp</w>
+      <w>ilte</w>
       <w>imod</w>
       <w>ineg</w>
       <w>inot</w>

@@ -35,3 +35,7 @@ export function ishr(a: number, b: number): number {
 export function ilt(a: number, b: number): number {
     return (((a | 0) < (b | 0)) as any) | 0;
 }
+
+export function ilte(a: number, b: number): number {
+    return (((a | 0) <= (b | 0)) as any) | 0;
+}
