@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "i32",
   "version": "0.0.0-development",
   "description": "32-bit signed integer math",
