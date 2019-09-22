@@ -1,5 +1,5 @@
 import test from "ava";
-import {iadd, icmp, ineg, inot, isub} from "./index";
+import {iadd, icmp, imod, ineg, inot, isub} from "./index";
 
 test("inot", t => {
     t.is(inot(0), 1);
@@ -26,6 +26,23 @@ test("ineg", t => {
     t.is(ineg(1e10), -1410065408);
     t.is(ineg(0x7fffffff), -0x7fffffff);
     t.is(ineg(-0x80000000), -0x80000000);
+});
+
+test("imod", t => {
+    t.is(imod(0, 5), 0);
+    t.is(imod(4, 5), 4);
+    t.is(imod(5, 5), 0);
+    t.is(imod(6, 5), 1);
+    t.is(imod(5.1, 5), 0);
+    t.is(imod(-3, 5), -3);
+    t.is(imod(-6, 5), -1);
+    t.is(imod(0, -5), 0);
+    t.is(imod(4, -5), 4);
+    t.is(imod(5, -5), 0);
+    t.is(imod(6, -5), 1);
+    t.is(imod(5.1, -5), 0);
+    t.is(imod(-3, -5), -3);
+    t.is(imod(-6, -5), -1);
 });
 
 test("iadd", t => {
