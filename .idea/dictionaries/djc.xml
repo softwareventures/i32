@@ -17,6 +17,7 @@
       <w>ishl</w>
       <w>ishr</w>
       <w>isub</w>
+      <w>isum</w>
       <w>ixor</w>
     </words>
   </dictionary>
