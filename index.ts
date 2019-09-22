@@ -67,3 +67,7 @@ export function ixor(a: number, b: number): number {
 export function ibor(a: number, b: number): number {
     return a | b;
 }
+
+export function iand(a: number, b: number): number {
+    return (((a | 0) && (b | 0)) as any) | 0;
+}

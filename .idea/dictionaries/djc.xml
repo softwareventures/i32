@@ -2,6 +2,7 @@
   <dictionary name="djc">
     <words>
       <w>iadd</w>
+      <w>iand</w>
       <w>iband</w>
       <w>ibor</w>
       <w>icmp</w>
