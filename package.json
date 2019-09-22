@@ -3,7 +3,13 @@
   "name": "i32",
   "version": "0.0.0-development",
   "description": "32-bit signed integer math",
-  "keywords": ["int", "int32", "i32", "integer", "math"],
+  "keywords": [
+    "int",
+    "int32",
+    "i32",
+    "integer",
+    "math"
+  ],
   "author": "Daniel Cassidy <mail@danielcassidy.me.uk>",
   "homepage": "https://github.com/softwareventures/i32",
   "bugs": "https://github.com/softwareventures/i32",
@@ -15,6 +21,8 @@
     "test": "tslint --project . && ava"
   },
   "dependencies": {
+    "@types/imul": "^1.0.0",
+    "imul": "^1.0.1",
     "tslib": "1.10.0"
   },
   "devDependencies": {
