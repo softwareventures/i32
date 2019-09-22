@@ -6,6 +6,7 @@
       <w>imod</w>
       <w>ineg</w>
       <w>inot</w>
+      <w>ishl</w>
       <w>isub</w>
     </words>
   </dictionary>

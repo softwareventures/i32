@@ -23,3 +23,7 @@ export function iadd(a: number, b: number): number {
 export function isub(a: number, b: number): number {
     return ((a | 0) - (b | 0)) | 0;
 }
+
+export function ishl(a: number, b: number): number {
+    return a << b;
+}
