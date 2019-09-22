@@ -448,6 +448,22 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
+"@softwareventures/array@^0.16.1":
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/@softwareventures/array/-/array-0.16.1.tgz#f042925e29bcb9b8425ad578c0686b0b4c73dca1"
+  integrity sha512-NZV6AqYhTfDL0+zCIInwNZT2jFsCP/QVjGXpn15RGRcfLivkst9fnZ0t99+0XNl4JUXqrMwz5mto5OfCaAeURw==
+  dependencies:
+    "@softwareventures/ordered" "^0.2.0"
+    dictionary-types "^1.0.0"
+    tslib "^1.9.3"
+
+"@softwareventures/ordered@^0.2.0":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@softwareventures/ordered/-/ordered-0.2.1.tgz#97a83745270659d13b9fa4c669fb878f763d9dbe"
+  integrity sha512-58nhr1sepVe/T9fAbmQlV+Gg+WCceT0cPWIq5PpjIKuKz5t8ywclfiQrfDi1FC10nJCa3t6k5QhgzbVupU7qbw==
+  dependencies:
+    tslib "^1.9.3"
+
 "@softwareventures/tsconfig@2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@softwareventures/tsconfig/-/tsconfig-2.0.0.tgz#0f6b39d1d57369d1c3755e20a82a0927fcc5345b"
@@ -1923,6 +1939,11 @@ dezalgo@^1.0.0, dezalgo@~1.0.3:
   dependencies:
     asap "^2.0.0"
     wrappy "1"
+
+dictionary-types@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/dictionary-types/-/dictionary-types-1.0.0.tgz#c74738702a2253dce2f2761f5e0a44f203f994fb"
+  integrity sha512-WBoXmEOlpph7MeUNAaHzf704J15wpTgic6xlnak47uuibcmOKEdYBwmVRR4mHtNz+K2MGLvxE2m1LojdqwpTPA==
 
 diff@^3.2.0:
   version "3.5.0"
