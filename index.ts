@@ -43,3 +43,7 @@ export function ilte(a: number, b: number): number {
 export function igt(a: number, b: number): number {
     return (((a | 0) > (b | 0)) as any) | 0;
 }
+
+export function igte(a: number, b: number): number {
+    return (((a | 0) >= (b | 0)) as any) | 0;
+}
