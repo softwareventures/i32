@@ -55,3 +55,7 @@ export function ieq(a: number, b: number): number {
 export function ineq(a: number, b: number): number {
     return (((a | 0) !== (b | 0)) as any) | 0;
 }
+
+export function iband(a: number, b: number): number {
+    return a & b;
+}

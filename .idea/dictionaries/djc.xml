@@ -2,6 +2,7 @@
   <dictionary name="djc">
     <words>
       <w>iadd</w>
+      <w>iband</w>
       <w>icmp</w>
       <w>igte</w>
       <w>ilte</w>
