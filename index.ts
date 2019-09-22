@@ -27,3 +27,7 @@ export function isub(a: number, b: number): number {
 export function ishl(a: number, b: number): number {
     return a << b;
 }
+
+export function ishr(a: number, b: number): number {
+    return a >> b;
+}
