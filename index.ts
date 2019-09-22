@@ -43,6 +43,10 @@ export function iproduct(...values: number[]): number {
     return fold(values, imul, 1);
 }
 
+export function idiv(a: number, b: number): number {
+    return ((a | 0) / (b | 0)) | 0;
+}
+
 export function imod(a: number, b: number): number {
     return ((a | 0) % (b | 0)) | 0;
 }
