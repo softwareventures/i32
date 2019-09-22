@@ -3,6 +3,7 @@
     <words>
       <w>iadd</w>
       <w>inot</w>
+      <w>isub</w>
     </words>
   </dictionary>
 </component>

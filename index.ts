@@ -5,3 +5,7 @@ export function inot(value: number): number {
 export function iadd(a: number, b: number): number {
     return ((a | 0) + (b | 0)) | 0;
 }
+
+export function isub(a: number, b: number): number {
+    return ((a | 0) - (b | 0)) | 0;
+}
