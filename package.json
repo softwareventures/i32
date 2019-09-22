@@ -1,0 +1,44 @@
+{
+  "private": true,
+  "name": "i32",
+  "version": "0.0.0-development",
+  "description": "32-bit signed integer math",
+  "keywords": ["int", "int32", "i32", "integer", "math"],
+  "author": "Daniel Cassidy <mail@danielcassidy.me.uk>",
+  "homepage": "https://github.com/softwareventures/i32",
+  "bugs": "https://github.com/softwareventures/i32",
+  "repository": "github:softwareventures/i32",
+  "license": "ISC",
+  "scripts": {
+    "prepare": "tsc",
+    "semantic-release": "semantic-release",
+    "test": "tslint --project . && ava"
+  },
+  "dependencies": {
+    "tslib": "1.10.0"
+  },
+  "devDependencies": {
+    "@softwareventures/tsconfig": "2.0.0",
+    "@softwareventures/tslint-rules": "0.7.1",
+    "ava": "2.2.0",
+    "cz-conventional-changelog": "3.0.2",
+    "semantic-release": "15.13.18",
+    "ts-node": "8.3.0",
+    "tslint": "5.18.0",
+    "typescript": "3.5.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "ava": {
+    "compileEnhancements": false,
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  }
+}
