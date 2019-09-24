@@ -1,5 +1,15 @@
 import test from "ava";
-import {iadd, iand, icmp, idiv, ieq, igt, igte, ilt, ilte, imod, ineg, ineq, inot, ior, ipow, isub} from "./index";
+import {i32, iadd, iand, icmp, idiv, ieq, igt, igte, ilt, ilte, imod, ineg, ineq, inot, ior, ipow, isub} from "./index";
+
+test("i32", t => {
+    t.is(i32(0), 0);
+    t.is(i32(1), 1);
+    t.is(i32(-1), -1);
+    t.is(i32(0x7fffffff), 0x7fffffff);
+    t.is(i32(0x80000000), -0x80000000);
+    t.is(i32(-0x7fffffff), -0x7fffffff);
+    t.is(i32(-0x80000000), -0x80000000);
+});
 
 test("inot", t => {
     t.is(inot(0), 1);

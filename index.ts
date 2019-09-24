@@ -1,5 +1,10 @@
 import {fold} from "@softwareventures/array";
 
+/** Coerces the specified value to a signed 32-bit integer. */
+export function i32(value: number): number {
+    return value | 0;
+}
+
 export function inot(value: number): number {
     return ((!(value | 0)) as any) | 0;
 }
