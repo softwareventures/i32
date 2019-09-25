@@ -60,6 +60,8 @@ test("ipow", t => {
     t.is(ipow(5, 0), 1);
     t.is(ipow(5, 2), 25);
     t.is(ipow(5, 14), 0);
+    t.is(ipow(6, 11), 362797056);
+    t.is(ipow(6, 12), 0);
     t.is(ipow(7, 0), 1);
     t.is(ipow(7, 3), 343);
     t.is(ipow(37, 9), 0);
