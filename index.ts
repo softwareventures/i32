@@ -38,17 +38,18 @@ export function ipow(a: number, b: number): number {
         return 1 << exp;
     }
 
-    let result = 1;
+    let accumulator = 1;
     while (true) {
         if (exp & 1) {
-            result = imul(result, base);
-        }
-        if (result <= 0) {
-            return 0;
+            const next = imul(accumulator, base);
+            if ((accumulator > 0xb504 || base > 0xb504) && idiv(next, accumulator) !== base) {
+                return 0;
+            }
+            accumulator = next;
         }
         exp = exp >>> 1;
         if (exp === 0) {
-            return result;
+            return accumulator;
         }
         if (base > 0xb504) {
             return 0;
