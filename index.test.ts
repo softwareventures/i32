@@ -38,7 +38,7 @@ test("ineg", t => {
     t.is(ineg(-0x80000000), -0x80000000);
 });
 
-test.only("ipow", t => {
+test("ipow", t => {
     t.is(ipow(0, 0), 1);
     t.is(ipow(0, -1), 0);
     t.is(ipow(0, -2481), 0);
