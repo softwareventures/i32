@@ -30,6 +30,10 @@ export function ipow(a: number, b: number): number {
         return 1;
     }
 
+    if (exp >= 31) {
+        return 0;
+    }
+
     let result = 1;
     while (true) {
         if (exp & 1) {
