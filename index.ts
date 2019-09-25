@@ -50,6 +50,9 @@ export function ipow(a: number, b: number): number {
         if (exp === 0) {
             return result;
         }
+        if (base > 0xb504) {
+            return 0;
+        }
         base = imul(base, base);
     }
 }
