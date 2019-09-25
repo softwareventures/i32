@@ -34,6 +34,10 @@ export function ipow(a: number, b: number): number {
         return 0;
     }
 
+    if (base === 2) {
+        return 1 << exp;
+    }
+
     let result = 1;
     while (true) {
         if (exp & 1) {
