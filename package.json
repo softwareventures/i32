@@ -21,7 +21,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@softwareventures/array": "^0.16.1",
+    "@softwareventures/array": "^0.18.0",
     "@types/imul": "^1.0.0",
     "imul": "^1.0.1",
     "tslib": "1.10.0"
