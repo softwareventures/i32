@@ -268,9 +268,9 @@
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
 "@softwareventures/array@^0.21.0":
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/@softwareventures/array/-/array-0.21.0.tgz#5bce31585442ca18656eb1b6c8b1ebf88943729b"
-  integrity sha512-4Fk3A0/owghqDe5xv6gd7YZ4vTGFTJEorsCAX6cqDP0PObYAH7hBaH/onePmFjFdQV3LjaS2g+w+zqtURBY86w==
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/@softwareventures/array/-/array-0.21.1.tgz#747a7c5d9f45b960b71b6897115ce5b483627ea2"
+  integrity sha512-HbEqvEGtUPS8vBgmEvNe/e+/P51XJj768NHBb5uJLoy1DDXAXo1AV96w/Sj2JB8Wvlkc7uiRoYk86STBL1+PDw==
   dependencies:
     "@softwareventures/ordered" "^0.2.0"
     dictionary-types "1.1.0"
