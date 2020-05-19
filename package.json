@@ -24,7 +24,7 @@
     "@softwareventures/array": "^0.31.0",
     "@types/imul": "^1.0.0",
     "imul": "^1.0.1",
-    "tslib": "1.12.0"
+    "tslib": "2.0.0"
   },
   "devDependencies": {
     "@softwareventures/tsconfig": "2.2.0",
