@@ -30,7 +30,7 @@
     "@softwareventures/tsconfig": "2.2.0",
     "@softwareventures/tslint-rules": "0.9.1",
     "ava": "3.12.1",
-    "cz-conventional-changelog": "3.2.1",
+    "cz-conventional-changelog": "3.3.0",
     "semantic-release": "17.1.1",
     "ts-node": "9.0.0",
     "tslint": "6.1.3",
