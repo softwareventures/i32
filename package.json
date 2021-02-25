@@ -27,7 +27,7 @@
     "tslib": "2.1.0"
   },
   "devDependencies": {
-    "@softwareventures/tsconfig": "2.3.2",
+    "@softwareventures/tsconfig": "2.3.3",
     "@softwareventures/tslint-rules": "0.9.1",
     "ava": "3.15.0",
     "cz-conventional-changelog": "3.3.0",
