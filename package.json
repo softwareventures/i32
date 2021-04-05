@@ -24,7 +24,7 @@
     "@softwareventures/array": "^0.31.0 || ^0.33.0 || ^2.0.0 || ^3.0.0",
     "@types/imul": "^1.0.0",
     "imul": "^1.0.1",
-    "tslib": "2.1.0"
+    "tslib": "2.2.0"
   },
   "devDependencies": {
     "@softwareventures/semantic-release-config": "1.1.1",
