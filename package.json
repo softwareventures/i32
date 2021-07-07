@@ -3,9 +3,9 @@
   "version": "0.0.0-development",
   "description": "32-bit signed integer math",
   "keywords": [
+    "i32",
     "int",
     "int32",
-    "i32",
     "integer",
     "math"
   ],
