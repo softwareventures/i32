@@ -24,7 +24,7 @@
     "node": "^12 || ^14 || >=16"
   },
   "dependencies": {
-    "@softwareventures/array": "^0.31.0 || ^0.33.0 || ^2.0.0 || ^3.0.0",
+    "@softwareventures/array": "^0.31.0 || ^0.33.0 || ^2.0.0 || ^3.0.0 || ^4.0.0",
     "@types/imul": "^1.0.0",
     "imul": "^1.0.1",
     "tslib": "2.3.0"
