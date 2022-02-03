@@ -19,7 +19,7 @@
     "lint": "tsc --noEmit && tslint --project .",
     "prepare": "tsc",
     "semantic-release": "semantic-release",
-    "test": "tslint --project . && ava"
+    "test": "ava"
   },
   "sideEffects": false,
   "engines": {
