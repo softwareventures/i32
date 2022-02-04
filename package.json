@@ -15,9 +15,10 @@
   "repository": "github:softwareventures/i32",
   "license": "ISC",
   "scripts": {
+    "pre-commit": "precise-commits",
     "fix": "tsc --noEmit && eslint . --fix && prettier --write .",
     "lint": "tsc --noEmit && eslint . && prettier --check .",
-    "prepare": "tsc",
+    "prepare": "husky install && tsc",
     "semantic-release": "semantic-release",
     "test": "ava"
   },
@@ -33,12 +34,14 @@
   },
   "devDependencies": {
     "@softwareventures/eslint-config": "5.1.0",
+    "@softwareventures/precise-commits": "2.0.18",
     "@softwareventures/prettier-config": "3.0.0",
     "@softwareventures/semantic-release-config": "2.0.0",
     "@softwareventures/tsconfig": "5.1.1",
     "ava": "4.0.1",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.8.0",
+    "husky": "7.0.4",
     "prettier": "2.5.1",
     "semantic-release": "17.4.7",
     "ts-node": "10.4.0",
