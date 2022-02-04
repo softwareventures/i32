@@ -1,5 +1,3 @@
 {
-  "extends": [
-    "@softwareventures:js-lib"
-  ]
+  "extends": ["@softwareventures:js-lib"]
 }

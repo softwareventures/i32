@@ -1,5 +1,23 @@
 import test from "ava";
-import {i32, iadd, iand, icmp, idiv, ieq, igt, igte, ilt, ilte, imod, ineg, ineq, inot, ior, ipow, isub} from "./index";
+import {
+    i32,
+    iadd,
+    iand,
+    icmp,
+    idiv,
+    ieq,
+    igt,
+    igte,
+    ilt,
+    ilte,
+    imod,
+    ineg,
+    ineq,
+    inot,
+    ior,
+    ipow,
+    isub
+} from "./index";
 
 test("i32", t => {
     t.is(i32(0), 0);

@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/strict-boolean-expressions */
+
 import {fold} from "@softwareventures/array";
 
 /** Coerces the specified value to a signed 32-bit integer. */
@@ -6,7 +8,8 @@ export function i32(value: number): number {
 }
 
 export function inot(value: number): number {
-    return ((!(value | 0)) as any) | 0;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    return (!(value | 0) as any) | 0;
 }
 
 export function icmp(value: number): number {
@@ -14,7 +17,7 @@ export function icmp(value: number): number {
 }
 
 export function ineg(value: number): number {
-    return (-(value | 0)) | 0;
+    return -(value | 0) | 0;
 }
 
 export function ipow(a: number, b: number): number {
@@ -39,6 +42,7 @@ export function ipow(a: number, b: number): number {
     }
 
     let accumulator = 1;
+    // eslint-disable-next-line no-constant-condition
     while (true) {
         if (exp & 1) {
             const next = imul(accumulator, base);
@@ -69,7 +73,7 @@ export function idiv(a: number, b: number): number {
 }
 
 export function imod(a: number, b: number): number {
-    return ((a | 0) % (b | 0)) | 0;
+    return (a | 0) % (b | 0) | 0;
 }
 
 export function iadd(a: number, b: number): number {
@@ -93,26 +97,32 @@ export function ishr(a: number, b: number): number {
 }
 
 export function ilt(a: number, b: number): number {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     return (((a | 0) < (b | 0)) as any) | 0;
 }
 
 export function ilte(a: number, b: number): number {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     return (((a | 0) <= (b | 0)) as any) | 0;
 }
 
 export function igt(a: number, b: number): number {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     return (((a | 0) > (b | 0)) as any) | 0;
 }
 
 export function igte(a: number, b: number): number {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     return (((a | 0) >= (b | 0)) as any) | 0;
 }
 
 export function ieq(a: number, b: number): number {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     return (((a | 0) === (b | 0)) as any) | 0;
 }
 
 export function ineq(a: number, b: number): number {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     return (((a | 0) !== (b | 0)) as any) | 0;
 }
 
@@ -129,9 +139,11 @@ export function ibor(a: number, b: number): number {
 }
 
 export function iand(a: number, b: number): number {
-    return (((a | 0) && (b | 0)) as any) | 0;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    return ((a | 0 && b | 0) as any) | 0;
 }
 
 export function ior(a: number, b: number): number {
-    return (((a | 0) || (b | 0)) as any) | 0;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    return ((a | 0 || b | 0) as any) | 0;
 }
