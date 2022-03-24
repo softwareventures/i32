@@ -497,10 +497,10 @@
     "@softwareventures/ordered" "^0.2.0 || ^1.0.0"
     tslib "^2.0.0"
 
-"@softwareventures/eslint-config@5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@softwareventures/eslint-config/-/eslint-config-5.1.1.tgz#041011aebda2e74432c323beabec987c572b7452"
-  integrity sha512-oU/nk/wcmiSzcFEHgo0b9523GfQ2qIA2RXC/ZQd8MIRf/Ahyx+MdelFMlJM9a4YQpL2Y6261PulcG6hUilzE8A==
+"@softwareventures/eslint-config@5.1.2":
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/@softwareventures/eslint-config/-/eslint-config-5.1.2.tgz#70b969cc8137f581cf6d32d387d658431fbd39d1"
+  integrity sha512-yZEUXW0Y8N5w5rH1bmuK58ssO2+UnZ3v3pf+lg4MNs26PcDwGOOYkFq02BIJLOuF4Zt5+yaFUuQeq3ZoT8iL/Q==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^5.3.0 || ^5.0.0"
     "@typescript-eslint/parser" "^5.3.0 || ^5.0.0"
