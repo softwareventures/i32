@@ -147,3 +147,7 @@ export function ior(a: number, b: number): number {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     return ((a | 0 || b | 0) as any) | 0;
 }
+
+export function iclamp(n: number, min: number, max: number): number {
+    return i32(Math.max(Math.min(i32(n), i32(max)), i32(min)));
+}

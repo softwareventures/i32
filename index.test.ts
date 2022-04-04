@@ -3,6 +3,7 @@ import {
     i32,
     iadd,
     iand,
+    iclamp,
     icmp,
     idiv,
     ieq,
@@ -291,4 +292,12 @@ test("ior", t => {
     t.is(ior(0x100000001, 2431), 1);
     t.is(ior(0x100000001, 0), 1);
     t.is(ior(1, 0x100000012), 1);
+});
+
+test("iclamp", t => {
+    t.is(iclamp(5, 0, 10), 5);
+    t.is(iclamp(5, 2, 10), 5);
+    t.is(iclamp(2, 5, 10), 5);
+    t.is(iclamp(5, -5, 10), 5);
+    t.is(iclamp(5, -10, -5), -5);
 });
