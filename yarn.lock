@@ -525,10 +525,10 @@
   dependencies:
     tslib "^1.9.3 || ^2.0.0 || ^2.1.0"
 
-"@softwareventures/precise-commits@2.0.19":
-  version "2.0.19"
-  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-2.0.19.tgz#e56177d5a7d92d84de2d2b1fb20f70a2a567e4ce"
-  integrity sha512-Fo4qyQnjzhLGUK0H7vmm1yhjo6fryPXxY4vhEN7sZRvTggyJadVRHuK4g11rL1g+YddVF6f5SgUuJO59ZLbnoQ==
+"@softwareventures/precise-commits@2.0.20":
+  version "2.0.20"
+  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-2.0.20.tgz#27c3d5905a3e294563bb08f291d6679c0846ffdd"
+  integrity sha512-SBvTtbrhzbvyl9ZttTzBkDgZcwsnFfJBqoe0kYQzH6WMv2Sg8DoxWYVh+ZR0/Gi1QoWCie417mMZZmq4NOnfHw==
   dependencies:
     "@softwareventures/array" "5.1.0"
     execa "5.1.1"
@@ -537,7 +537,7 @@
     ignore "5.2.0"
     mri "1.2.0"
     ora "5.4.1"
-    tslib "2.3.1"
+    tslib "2.4.0"
     unknown "0.2.5"
 
 "@softwareventures/prettier-config@3.0.0":
