@@ -524,7 +524,7 @@
     eslint-plugin-sonarjs "^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0"
     tslib "^2.3.1"
 
-"@softwareventures/nullable@^1.0.0 || ^1.0.0 || ^1.2.1 || ^2.0.0":
+"@softwareventures/nullable@2.0.0", "@softwareventures/nullable@^1.0.0 || ^1.0.0 || ^1.2.1 || ^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@softwareventures/nullable/-/nullable-2.0.0.tgz#d11498c5fe71bb0b94ba85a40e774c19c721c5d3"
   integrity sha512-zx+FMgB4MqmqIiCglgP8GZIYPw57yFBuz/jh0kXNAoEtSRl3LkwhaGG0b/y5yae2RsYSaVkNotQaSmJRt5GahA==
@@ -538,12 +538,13 @@
   dependencies:
     tslib "^1.9.3 || ^2.0.0 || ^2.1.0"
 
-"@softwareventures/precise-commits@2.0.20":
-  version "2.0.20"
-  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-2.0.20.tgz#27c3d5905a3e294563bb08f291d6679c0846ffdd"
-  integrity sha512-SBvTtbrhzbvyl9ZttTzBkDgZcwsnFfJBqoe0kYQzH6WMv2Sg8DoxWYVh+ZR0/Gi1QoWCie417mMZZmq4NOnfHw==
+"@softwareventures/precise-commits@2.0.21":
+  version "2.0.21"
+  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-2.0.21.tgz#e5100f3d74c58e391d5e91602b578e7a7652c89e"
+  integrity sha512-BhDnhERycH6ap9aAq1WngMS2UXWYKymBkER4wWY/qD3I8/y3WydMh0/f96+zCe8dty7bh0Hlxoz09hLJs44VzQ==
   dependencies:
     "@softwareventures/array" "5.1.0"
+    "@softwareventures/nullable" "2.0.0"
     execa "5.1.1"
     find-up "5.0.0"
     glob "7.2.0"
