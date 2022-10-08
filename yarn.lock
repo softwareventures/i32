@@ -523,13 +523,13 @@
     lodash "^4.17.4"
     read-pkg-up "^7.0.0"
 
-"@softwareventures/array@5.2.0", "@softwareventures/array@^0.31.0 || ^0.33.0 || ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@softwareventures/array/-/array-5.2.0.tgz#235a8427378b84f18031a09ede0142d6ec6a8e67"
-  integrity sha512-vVleJME+wOObPdbgYLYwiVN3VV48gzA6I86fOzpNwjk1rFtVtEttVO9lUcGUrXoNaFwYNM+I9VfLaLqaiKdbxA==
+"@softwareventures/array@5.2.1", "@softwareventures/array@^0.31.0 || ^0.33.0 || ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0":
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/@softwareventures/array/-/array-5.2.1.tgz#810e913ce2be07843078904a07cf957670a26e4a"
+  integrity sha512-MO4IV+7UetpJ5Wvnjjiq1tW+IJ5LD6Ia6iag643/2Tn7czthzcfVOA5kC4pCEW7pi7ghQSt81sDbCFfyzrX0hQ==
   dependencies:
-    "@softwareventures/nullable" "^1.0.0 || ^1.0.0 || ^1.2.1 || ^2.0.0"
-    "@softwareventures/ordered" "^0.2.0 || ^1.0.0"
+    "@softwareventures/nullable" "^1.0.0 || ^2.0.0"
+    "@softwareventures/ordered" "^1.1.0"
     tslib "^2.0.0"
 
 "@softwareventures/eslint-config@5.1.5":
@@ -546,26 +546,26 @@
     eslint-plugin-sonarjs "^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0"
     tslib "^2.3.1"
 
-"@softwareventures/nullable@2.0.0", "@softwareventures/nullable@^1.0.0 || ^1.0.0 || ^1.2.1 || ^2.0.0":
+"@softwareventures/nullable@2.0.0", "@softwareventures/nullable@^1.0.0 || ^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@softwareventures/nullable/-/nullable-2.0.0.tgz#d11498c5fe71bb0b94ba85a40e774c19c721c5d3"
   integrity sha512-zx+FMgB4MqmqIiCglgP8GZIYPw57yFBuz/jh0kXNAoEtSRl3LkwhaGG0b/y5yae2RsYSaVkNotQaSmJRt5GahA==
   dependencies:
     tslib "2.3.0"
 
-"@softwareventures/ordered@^0.2.0 || ^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@softwareventures/ordered/-/ordered-1.0.0.tgz#d803eef43bb0b4ccfcd78d2928fe38b5109ad99e"
-  integrity sha512-SUFUYDWEPAS54LpGH+mRHwkGuTINPDt4OOS3h/Zr9f12JPFz2cqh6Xxwg75BZqwaeONuUwmklJVMRmgvxSSkPA==
+"@softwareventures/ordered@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@softwareventures/ordered/-/ordered-1.1.0.tgz#5bd8929574d309738f6bcccaa017557979a4e303"
+  integrity sha512-XkoiEiTiLhDnDHYKmDobtoNlqYEmK/LK/FOeKzfIOB8Xfl9+Q6toDxSasB+T6coOZiJ0GA23XFsSkh0grC2Nng==
   dependencies:
     tslib "^1.9.3 || ^2.0.0 || ^2.1.0"
 
-"@softwareventures/precise-commits@2.0.22":
-  version "2.0.22"
-  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-2.0.22.tgz#de243e9cf2a28ec28632ab404d7f4489b80a8c5e"
-  integrity sha512-Q/9h1iiBuy1OIo83dyQBT/PY9DFbhgGqPvkU/dj8+Y0qQDi+tyNYLuVWspQb75/byaBDw/9AFhIcMDO666XoPA==
+"@softwareventures/precise-commits@2.0.23":
+  version "2.0.23"
+  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-2.0.23.tgz#a14bc39d32ce153264b37d980da5c42db5bd6ffe"
+  integrity sha512-PaNcrrlDoK0GWtPfC0OQ409X2xtDViuxbaPV7JUrb0dUcYzDRlhEBFXhEbpyrlBIPYBwrVfjvFS/ond9sOwxJQ==
   dependencies:
-    "@softwareventures/array" "5.2.0"
+    "@softwareventures/array" "5.2.1"
     "@softwareventures/nullable" "2.0.0"
     execa "5.1.1"
     find-up "5.0.0"
