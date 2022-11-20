@@ -565,10 +565,10 @@
     conventional-changelog-conventionalcommits "^4.6.3 || ^5.0.0"
     tslib "2.4.0"
 
-"@softwareventures/tsconfig@6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@softwareventures/tsconfig/-/tsconfig-6.0.0.tgz#af2409b589ff2171fda173a2685b34eedc9cdeeb"
-  integrity sha512-ZPZgEZqbnZ1ZRlj0oZEaXdyQD8us4AADYVaYFwNgGKbHe2O/u9M4IEpqzvgC6QER1S3DSH0XSXS6WODyJhyvlg==
+"@softwareventures/tsconfig@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@softwareventures/tsconfig/-/tsconfig-7.0.0.tgz#fd7ee45badff849ae67c2475177cb45ee4baeccd"
+  integrity sha512-1vHU4p6jt0zNKXmdc8sU1oD5rvIIe5TQsxgt1nXgt2mMNn7Fd/LL4l+038BNExvS94TEVlAqM6uDppFmULnK2Q==
 
 "@tootallnate/once@1":
   version "1.1.2"
