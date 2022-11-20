@@ -36,7 +36,7 @@
     "@softwareventures/eslint-config": "7.1.0",
     "@softwareventures/precise-commits": "3.0.4",
     "@softwareventures/prettier-config": "4.0.0",
-    "@softwareventures/semantic-release-config": "2.0.3",
+    "@softwareventures/semantic-release-config": "3.0.0",
     "@softwareventures/tsconfig": "7.0.0",
     "@typescript-eslint/eslint-plugin": "5.43.0",
     "@typescript-eslint/parser": "5.43.0",
