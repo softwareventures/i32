@@ -30,7 +30,7 @@
     "@softwareventures/array": "^0.31.0 || ^0.33.0 || ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0",
     "@types/imul": "^1.0.0",
     "imul": "^1.0.1",
-    "tslib": "2.5.3"
+    "tslib": "2.6.0"
   },
   "devDependencies": {
     "@softwareventures/eslint-config": "7.1.1",
