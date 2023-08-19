@@ -623,10 +623,10 @@
   dependencies:
     tslib "^1.9.3 || ^2.0.0 || ^2.1.0"
 
-"@softwareventures/precise-commits@3.0.20":
-  version "3.0.20"
-  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-3.0.20.tgz#bec2b04d9d72ff9244774ea55f563c8bd68e3f12"
-  integrity sha512-YRKKTnr4/RlewW1zTGPm8xtM4W6NzmDTBr7VCi4lIcvYMkMViWK8XIpIt2lCQL8IF7RjBpyanYb0ahy2YzOwsw==
+"@softwareventures/precise-commits@3.0.21":
+  version "3.0.21"
+  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-3.0.21.tgz#61ea3d598033a5d6aae4b6a7b65ebbce5cd2d4bd"
+  integrity sha512-9jrTQBTN7YraX1EHwLNAV68qUQ/+pfr7dEcTX4JbUc+CGUNaUbF3vfQLOpx9ONZ+Y2J4X89NbiicxDawd9UXHA==
   dependencies:
     "@softwareventures/array" "6.0.3"
     "@softwareventures/nullable" "3.1.0"
@@ -636,7 +636,7 @@
     ignore "5.2.1"
     mri "1.2.0"
     ora "5.4.1"
-    tslib "2.6.1"
+    tslib "2.6.2"
     unknown "0.2.5"
 
 "@softwareventures/prettier-config@4.0.0":
@@ -5523,11 +5523,6 @@ tslib@2.4.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.1.tgz#0d0bfbaac2880b91e22df0768e55be9753a5b17e"
   integrity sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==
-
-tslib@2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.1.tgz#fd8c9a0ff42590b25703c0acb3de3d3f4ede0410"
-  integrity sha512-t0hLfiEKfMUoqhG+U1oid7Pva4bbDPHYfJNiB7BiIjRkj1pyC++4N3huJfqY6aRH6VTB0rvtzQwjM4K6qpfOig==
 
 tslib@2.6.2, "tslib@^1.9.3 || ^2.0.0 || ^2.1.0", tslib@^2.0.0, tslib@^2.1.0, tslib@^2.3.1:
   version "2.6.2"
