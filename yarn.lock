@@ -597,10 +597,10 @@
   dependencies:
     tslib "^1.9.3 || ^2.0.0 || ^2.1.0"
 
-"@softwareventures/precise-commits@3.0.27":
-  version "3.0.27"
-  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-3.0.27.tgz#c6afb2ba21f7e2ecc825e96ff4ff23f1d003fca6"
-  integrity sha512-91+yaRE1JkKm4wc94+qG1/ekK+YhL0Kg3w7K7+g9pgfvUuGDw+JrB2u8zU6Z+3aI0GXCi4KR1PEOY+ECcmYECQ==
+"@softwareventures/precise-commits@3.0.28":
+  version "3.0.28"
+  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-3.0.28.tgz#37352d20d5e9a326273223bcfc380e6a0894443f"
+  integrity sha512-VLAW8pSyQ1SZg22qV5Nozbwl+CNuV8juUvNs/ZxKncqV0vVdTWHqVPSNF7kdzs+HRKZnmvQcQK/RKlKsaXDZIQ==
   dependencies:
     "@softwareventures/array" "6.0.3"
     "@softwareventures/nullable" "3.1.0"
