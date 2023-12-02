@@ -597,10 +597,10 @@
   dependencies:
     tslib "^1.9.3 || ^2.0.0 || ^2.1.0"
 
-"@softwareventures/precise-commits@3.0.29":
-  version "3.0.29"
-  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-3.0.29.tgz#9a8ec49073b8ae107d3e0e70f3abd990f07a30f9"
-  integrity sha512-BYLs6U6tJ9UYn0LSErbQ7d93xwGg7dl8o2XGILWO8iFPy+pIw/n4z7EmsXcijytWb5ZyrLHEgLeNRxME+228hw==
+"@softwareventures/precise-commits@3.0.30":
+  version "3.0.30"
+  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-3.0.30.tgz#f1a7c3436ef05e0b6e7f2fec42d2e5aa0179a503"
+  integrity sha512-fb4UwwDJ0buTgu0BM1P88iaRyi/LP5WUPM4TnR1KK6u+0SRj0JiVOKZFvkA8JDUysroTc7iKOH39426A8Rbdag==
   dependencies:
     "@softwareventures/array" "6.0.3"
     "@softwareventures/nullable" "3.1.0"
@@ -610,6 +610,7 @@
     ignore "5.3.0"
     mri "1.2.0"
     ora "5.4.1"
+    rxjs "7.8.1"
     tslib "2.6.2"
     unknown "0.2.5"
 
@@ -4837,7 +4838,7 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rxjs@^7.5.5:
+rxjs@7.8.1, rxjs@^7.5.5:
   version "7.8.1"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-7.8.1.tgz#6f6f3d99ea8044291efd92e7c7fcf562c4057543"
   integrity sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==
