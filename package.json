@@ -33,7 +33,7 @@
     "tslib": "2.6.2"
   },
   "devDependencies": {
-    "@softwareventures/eslint-config": "7.2.0",
+    "@softwareventures/eslint-config": "7.3.0",
     "@softwareventures/precise-commits": "3.0.33",
     "@softwareventures/prettier-config": "4.0.0",
     "@softwareventures/semantic-release-config": "3.1.0",
