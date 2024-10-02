@@ -2927,10 +2927,10 @@ import-meta-resolve@^4.0.0:
   resolved "https://registry.yarnpkg.com/import-meta-resolve/-/import-meta-resolve-4.0.0.tgz#0b1195915689f60ab00f830af0f15cc841e8919e"
   integrity sha512-okYUR7ZQPH+efeuMJGlq4f8ubUgO50kByRPyt/Cy1Io4PSRsPjxME+YlVaCOx+NIToW7hCsZNFJyTPFFKepRSA==
 
-imul@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/imul/-/imul-1.0.1.tgz#9d5867161e8b3de96c2c38d5dc7cb102f35e2ac9"
-  integrity sha512-WFAgfwPLAjU66EKt6vRdTlKj4nAgIDQzh29JonLa4Bqtl6D8JrIMvWjCnx7xEjVNmP3U0fM5o8ZObk7d0f62bA==
+"imul@^1.0.1 || ^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/imul/-/imul-2.0.0.tgz#f39111fad113bf2591901227bdd42721002c83b0"
+  integrity sha512-BhNM8C2tmr8z/BnceiZMAvxcb67DG853CE86i7jijtwKF7l6EeFDgch87F0mbauWPovBiE0cEP9LKM4UPm+9+Q==
 
 imurmurhash@^0.1.4:
   version "0.1.4"
