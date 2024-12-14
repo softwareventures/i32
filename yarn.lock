@@ -681,10 +681,10 @@
   dependencies:
     tslib "2.4.0"
 
-"@softwareventures/semantic-release-config@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@softwareventures/semantic-release-config/-/semantic-release-config-4.1.0.tgz#a04a7451a2380e36592a7186132e48246ec04132"
-  integrity sha512-fBJqi08MR4JONYbehx9ieu1U2fc7UaC2/OFu99Jo0x+B10gK96AQUf968d6+5tIEN+pdXCOeegbREGqv/NUHMQ==
+"@softwareventures/semantic-release-config@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@softwareventures/semantic-release-config/-/semantic-release-config-5.0.0.tgz#b907d5d8d01033af74ae59dc550f576b21f44d60"
+  integrity sha512-kDIeHzkAvREMuNR5LjRJLaPPw4yAkofNJE5ziuHWn+65DQup+5D9gNXuTSnsdBKw1/XS1AqzO9wgqo4D/bP1hg==
   dependencies:
     tslib "2.6.2"
 
@@ -4737,6 +4737,11 @@ pify@^3.0.0:
   resolved "https://registry.yarnpkg.com/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
   integrity sha512-C3FsVNH1udSEX48gGX1xfvwTWfsYWj5U+8/uK15BGzIGrKoUpghX8hWZwa/OFnakBiiVNmBvemTJR5mcy7iPcg==
 
+pinst@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/pinst/-/pinst-3.0.0.tgz#80dec0a85f1f993c6084172020f3dbf512897eec"
+  integrity sha512-cengSmBxtCyaJqtRSvJorIIZXMXg+lJ3sIljGmtBGUVonMnMsVJbnzl6jGN1HkOWwxNuJynCJ2hXxxqCQrFDdw==
+
 pkg-conf@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/pkg-conf/-/pkg-conf-2.1.0.tgz#2126514ca6f2abfebd168596df18ba57867f0058"
@@ -5103,6 +5108,13 @@ safe-regex-test@^1.0.3:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+
+semantic-release-pinst@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/semantic-release-pinst/-/semantic-release-pinst-1.0.4.tgz#28a8a5202b84a99787deffe1ec88c38231595c7c"
+  integrity sha512-NybeniDvFfpsYM1pgKYt3Mt7kSRnLm8lAmRje9/z1zKQWcFqzUbLBYi/Dnhc/YcMd/M/R30Q3Dw5fEYlCcrioA==
+  dependencies:
+    tslib "^2.6.2"
 
 semantic-release@19.0.5:
   version "19.0.5"
