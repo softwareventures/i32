@@ -627,10 +627,19 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/merge-streams/-/merge-streams-2.3.0.tgz#719df7fb41766bc143369eaa0dd56d8dc87c9958"
   integrity sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==
 
-"@softwareventures/array@6.1.0", "@softwareventures/array@^0.31.0 || ^0.33.0 || ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0":
+"@softwareventures/array@6.1.0":
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/@softwareventures/array/-/array-6.1.0.tgz#377c9b99a71228dbd58301cc21f69939cfa9ab4e"
   integrity sha512-ZvN+BAIELx0kVi6U+KAMr89TP8pohl4scPRCslIArkFxwumeR2ZuEgHJLxoIyWyUIkcXH4fYR1LmhUf9Fv9/IQ==
+  dependencies:
+    "@softwareventures/nullable" "^1.0.0 || ^2.0.0 || ^3.0.0"
+    "@softwareventures/ordered" "^1.1.0 || ^2.0.0"
+    tslib "^2.0.0"
+
+"@softwareventures/array@^0.31.0 || ^0.33.0 || ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@softwareventures/array/-/array-7.0.0.tgz#0f1a62bb447c9156cdd35a2c636d42655a0e9e05"
+  integrity sha512-xHMS/7k0Iw/ivaeelC6+tePJYv/2R+LFUyuTuSJioZa+zumahtcN10aNDbogWXOa2QarvHPmfl/FC4v5MteEHQ==
   dependencies:
     "@softwareventures/nullable" "^1.0.0 || ^2.0.0 || ^3.0.0"
     "@softwareventures/ordered" "^1.1.0 || ^2.0.0"
