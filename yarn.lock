@@ -645,10 +645,10 @@
     "@softwareventures/ordered" "^1.1.0 || ^2.0.0"
     tslib "^2.0.0"
 
-"@softwareventures/eslint-config@8.1.0":
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/@softwareventures/eslint-config/-/eslint-config-8.1.0.tgz#da40ea6149da4e50783edba8a38ed30b31e29c4d"
-  integrity sha512-WvwvxJkLNvWySXEqKhP5geqfG+OsxLF3lzYd7Eia1C6LiRYpixy4NfqcBJkaAL7VWVictFHSLL8YLpSYwQ8MMw==
+"@softwareventures/eslint-config@9.1.0":
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/@softwareventures/eslint-config/-/eslint-config-9.1.0.tgz#2353572dc56d78f89549475194d3a1296ec2bace"
+  integrity sha512-kwIqk6afaXNAuoNXfdBQCD2e7RMSGImJ9Stf2HYYt/PQdfYPC1F9xufqeDZBoJMr3gPko0LTo2hoHB2y1GZyCg==
   dependencies:
     tslib "^2.3.1"
 
