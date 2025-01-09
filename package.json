@@ -55,7 +55,7 @@
     "semantic-release": "22.0.12",
     "semantic-release-pinst": "1.0.4",
     "ts-node": "10.9.2",
-    "typescript": "5.7.2"
+    "typescript": "5.7.3"
   },
   "eslintConfig": {
     "root": true,
