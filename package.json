@@ -51,7 +51,7 @@
     "eslint-plugin-sonarjs": "3.0.2",
     "husky": "8.0.3",
     "pinst": "3.0.0",
-    "prettier": "3.5.0",
+    "prettier": "3.5.1",
     "semantic-release": "22.0.12",
     "semantic-release-pinst": "1.0.4",
     "ts-node": "10.9.2",
