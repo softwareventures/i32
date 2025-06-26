@@ -658,10 +658,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/merge-streams/-/merge-streams-2.3.0.tgz#719df7fb41766bc143369eaa0dd56d8dc87c9958"
   integrity sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==
 
-"@softwareventures/array@7.0.0", "@softwareventures/array@^0.31.0 || ^0.33.0 || ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@softwareventures/array/-/array-7.0.0.tgz#0f1a62bb447c9156cdd35a2c636d42655a0e9e05"
-  integrity sha512-xHMS/7k0Iw/ivaeelC6+tePJYv/2R+LFUyuTuSJioZa+zumahtcN10aNDbogWXOa2QarvHPmfl/FC4v5MteEHQ==
+"@softwareventures/array@7.0.1", "@softwareventures/array@^0.31.0 || ^0.33.0 || ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0":
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/@softwareventures/array/-/array-7.0.1.tgz#c70d63c3a7ca53b41a8812977bc785a844227c41"
+  integrity sha512-9quO63WbI1y79q5qWAlBcOSgIK1X01gJGx3kLg83FkL0qfFR5AR7lDkvuphjooo4fxIZmnbzl0GvdI/PHHPIkg==
   dependencies:
     "@softwareventures/nullable" "^1.0.0 || ^2.0.0 || ^3.0.0"
     "@softwareventures/ordered" "^1.1.0 || ^2.0.0"
@@ -688,12 +688,12 @@
   dependencies:
     tslib "^1.9.3 || ^2.0.0 || ^2.1.0"
 
-"@softwareventures/precise-commits@4.0.21":
-  version "4.0.21"
-  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-4.0.21.tgz#720cf951f88f15265f2b82c27af00d6731ef1bc7"
-  integrity sha512-mcA2x7KCID68CwU1Zp22AEI+BhJvYHF9xFMN3mLv0YaCvwn9pVvKVwfWH5lflPMpSf5BD1NjO0oM7PaWDQK7Sg==
+"@softwareventures/precise-commits@4.0.22":
+  version "4.0.22"
+  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-4.0.22.tgz#c58410cedf4a3db7ce19786a8f149e5142ce083f"
+  integrity sha512-+WSZ4bBBjoIPjKMQpFjMUGktrVYK5QXfyn4uY03A7QiCDU6a71C0Ms9CZRLUrGBWJ+0PKaEnrDfPuwfwCP2J7A==
   dependencies:
-    "@softwareventures/array" "7.0.0"
+    "@softwareventures/array" "7.0.1"
     "@softwareventures/nullable" "3.2.0"
     execa "5.1.1"
     glob "10.4.5"
