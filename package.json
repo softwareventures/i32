@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@softwareventures/eslint-config": "9.2.2",
-    "@softwareventures/precise-commits": "4.0.22",
+    "@softwareventures/precise-commits": "4.0.23",
     "@softwareventures/prettier-config": "4.0.0",
     "@softwareventures/semantic-release-config": "5.1.0",
     "@softwareventures/tsconfig": "7.3.0",
