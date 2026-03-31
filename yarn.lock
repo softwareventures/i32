@@ -5042,12 +5042,13 @@ scslre@0.3.0:
     refa "^0.12.0"
     regexp-ast-analysis "^0.7.0"
 
-semantic-release-pinst@1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/semantic-release-pinst/-/semantic-release-pinst-1.0.4.tgz#28a8a5202b84a99787deffe1ec88c38231595c7c"
-  integrity sha512-NybeniDvFfpsYM1pgKYt3Mt7kSRnLm8lAmRje9/z1zKQWcFqzUbLBYi/Dnhc/YcMd/M/R30Q3Dw5fEYlCcrioA==
+semantic-release-pinst@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/semantic-release-pinst/-/semantic-release-pinst-1.1.0.tgz#99557aceaed608f0ee5f5bf361f97b29776dad18"
+  integrity sha512-2S4T1kcnsbUQ+T4d76oZtYmK0oybGug3f/+PGDcF9zZFseHJJjwnhtQx4jHhYZCjSbz1gFTAg+YXpfrvJa+A9g==
   dependencies:
     tslib "^2.6.2"
+    unknown "^0.2.6"
 
 semantic-release@22.0.12:
   version "22.0.12"
@@ -5879,7 +5880,7 @@ universalify@^2.0.0:
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-2.0.1.tgz#168efc2180964e6386d061e094df61afe239b18d"
   integrity sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==
 
-unknown@0.2.6:
+unknown@0.2.6, unknown@^0.2.6:
   version "0.2.6"
   resolved "https://registry.yarnpkg.com/unknown/-/unknown-0.2.6.tgz#89756ab99948ad7f5497a1e6758f48739e74194c"
   integrity sha512-1awrWBF5IFiic4/JMwO/RJV7JkLLJWPS4K37DLAC/g5Ob8IGIfLBm5hRpMaMceCudpweQFY3NcUmmCBaqVDxRQ==
