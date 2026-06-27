@@ -688,15 +688,15 @@
   dependencies:
     tslib "^1.9.3 || ^2.0.0 || ^2.1.0"
 
-"@softwareventures/precise-commits@4.0.23":
-  version "4.0.23"
-  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-4.0.23.tgz#17746960f09305e926dd750d5acc2f322c49bc5c"
-  integrity sha512-7p/vNPjjtGsRMvMtH4YTx4zhAVWUy7eGcJbhzi29MjJRxEISoLwFW59gI7xiqVM+2AsCuRH/W2PUk71rOrNaqQ==
+"@softwareventures/precise-commits@4.0.26":
+  version "4.0.26"
+  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-4.0.26.tgz#7db4595cdb48330376e23e4bbc314d4bbe263708"
+  integrity sha512-ZMtRV1YkLbexWZgdKHUmBP4CWzFm/rlL2TzFPkS0cXbV/XAhkFxZbaTlx/vaIkjOxkMbiz3cey8A5jdJlPRazQ==
   dependencies:
     "@softwareventures/array" "7.0.1"
     "@softwareventures/nullable" "3.2.0"
     execa "5.1.1"
-    glob "10.4.5"
+    glob "10.5.0"
     ignore "5.3.2"
     mri "1.2.0"
     ora "5.4.1"
@@ -2692,10 +2692,10 @@ glob-parent@^6.0.2:
   dependencies:
     is-glob "^4.0.3"
 
-glob@10.4.5, glob@^10.2.2, glob@^10.4.5:
-  version "10.4.5"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-10.4.5.tgz#f4d9f0b90ffdbab09c9d77f5f29b4262517b0956"
-  integrity sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==
+glob@10.5.0, glob@^10.2.2, glob@^10.4.5:
+  version "10.5.0"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-10.5.0.tgz#8ec0355919cd3338c28428a23d4f24ecc5fe738c"
+  integrity sha512-DfXN8DfhJ7NH3Oe7cFmu3NCu1wKbkReJ8TorzSAFbSKrlNaQSKfIzqYqVY8zlbs2NLBbWpRiU52GX2PbaBVNkg==
   dependencies:
     foreground-child "^3.1.0"
     jackspeak "^3.1.2"
